@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 95vh;
+    display: grid;
+    background-color: brown;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.box{
+    background-color: aqua;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 29px;
+    margin-top: 20px;
+    
+}
+.box a{
+    font-size: 30px;
+}

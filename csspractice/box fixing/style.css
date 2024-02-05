@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.box{
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+.container{
+    position: relative;
+}
+
+.hb{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}

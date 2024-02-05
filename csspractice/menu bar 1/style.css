@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(naruto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav div{
+    padding: 17px 25px;
+}
+nav div:hover{
+   filter: blur(1px);
+   z-index: -2;
+    
+}
+nav a:hover{
+    color: aqua;
+    z-index: 2;
+    filter: blur(-1px);
+    
+}

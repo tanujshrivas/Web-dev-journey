@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course purchase</title>
+
+    <style>
+    #container{
+        /* border: 1px solid black; */
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+        font-family: sans-serif;
+        padding: 20px 10px 0 20px;
+        margin: 50px;
+    }
+    #img{
+        width: 340px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    #price{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        color: rgb(102, 116, 204);
+        padding-right: 8px;
+    }
+    #originalPrice{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        color: rgb(119, 124, 133);
+        padding-right: 8px;
+    }
+    #discount{
+        background-color: #1dd1a1;
+        color: #fff;
+        padding: 4px;
+        border-radius: 3px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    hr{
+        width: 75%;
+        border: 1px solid rgba(128, 128, 128, 0.27);
+        float: left;
+    }
+    #div{
+        margin-top: 8px;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="Web_dev.jpg" alt="Web Development Bootcamp" id="img">
+        <p>Web Development Master Course @dot Batch</p>
+        <hr><br>
+        <div id="div">
+            <span id="price">&#8377;4200</span>
+            <span id="originalPrice"><del>&#8377;6200</del></span>
+            <span id="discount">42% off</span>
+        </div>
+    </div>
+</body>
+</html>

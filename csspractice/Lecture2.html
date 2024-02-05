@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture 2</title>
+    <STYLE>
+        .body{
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .container{
+            height: 685px;
+            background-color: brown;
+            display: grid;
+            grid-template-rows: 30px 1fr 30px;
+            grid-template-columns: 150px 1fr 150px ;
+            grid-gap: 3px;
+
+        }
+        .box{
+            /* width: 100px;
+            height: 100px; */
+            background-color: aqua;
+            border: 3px solid pink;
+            /* text-align: center; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+
+        }
+        #header{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            
+        }
+        #side{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #main{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #ad{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #footer{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            
+        }
+        
+            </STYLE>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="header">Header</div>
+    <div class="box" id="side">Side Bar</div>
+    <div class="box" id="main">Main bar</div>
+    <div class="box" id="ad">Ad Bar</div>
+    <div class="box" id="footer">Footer</div>
+</div>
+</body>
+</html>

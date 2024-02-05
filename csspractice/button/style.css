@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: orange;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 1.5px 1.5px 1px 0px black;
+    position: relative;
+    z-index: 1;
+}
+.btn::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scalex(0);
+    transform-origin: left;
+    transition: 1.5s;
+    z-index: -1;
+}
+.btn:hover::before{
+    transform: scalex(1);
+}
